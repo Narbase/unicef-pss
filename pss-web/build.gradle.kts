@@ -29,6 +29,7 @@ dependencies {
     implementation(npm("tippy.js", "4.3.4"))
     implementation(npm("pikaday", "1.8.0"))
     implementation(npm("flatpickr", "4.6.3"))
+    implementation(npm("phaser.js", "3.60.0"))
 
     testImplementation("org.jetbrains.kotlin:kotlin-test-js:$kotlinVersion")
 

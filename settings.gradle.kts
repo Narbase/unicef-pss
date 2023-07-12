@@ -1,6 +1,6 @@
-rootProject.name = "narcore"
+rootProject.name = "unicef-pss"
 
-include(":narcore-server")
-include(":narcore-web")
+include(":pss-server")
+include(":pss-web")
 include(":dto-web")
 
