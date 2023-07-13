@@ -12,7 +12,7 @@
     <ID>EmptyFunctionBlock:RemoteCheckBoxList.kt$RemoteCheckBoxListViewController${ }</ID>
     <ID>ForbiddenComment:DirectoryUploader.kt$DirectoryUploaderViewController$//Todo: figure out why I need to have this difference</ID>
     <ID>FunctionNaming:LifecycleSubscriber.kt$inline fun &lt;reified P : Any&gt; LifecycleSubscriber(noinline onEvent: (P) -&gt; Unit)</ID>
-    <ID>InvalidPackageDeclaration:DynamicRoleDto.kt$package com.narbase.narcore.data.dto.roles</ID>
+    <ID>InvalidPackageDeclaration:DynamicRoleDto.kt$package com.narbase.pss.data.dto.roles</ID>
     <ID>LongMethod:BasePageComponent.kt$BasePageComponent$private fun settingsDropDownMenu(): HTMLElement</ID>
     <ID>LongMethod:CheckBoxList.kt$CheckBoxList$override fun View?.getView()</ID>
     <ID>LongMethod:ConfirmationDialog.kt$fun showConfirmationDialogWithRemoteAction( title: String?, message: String, actionButtonText: String? = null, dismissButtonText: String? = null, actionButtonStyle: (RuleSet.() -&gt; Unit)?, uiState: Observable&lt;BasicUiState&gt;?, action: () -&gt; Unit, onConfirmed: () -&gt; Unit )</ID>
@@ -177,22 +177,22 @@
     <ID>MaxLineLength:UpsertStaffMemberDialog.kt$UpsertStaffMemberDialog.Companion$"The user will not be deleted but they will not be able to login to their account or perform any actions.".localized()</ID>
     <ID>MayBeConst:AppColors.kt$AppColors$val borderColorHex = "#cecece"</ID>
     <ID>MayBeConst:Colors.kt$private val blackToWhiteStep = 25.5</ID>
-    <ID>NewLineAtEndOfFile:AppConfig.kt$com.narbase.narcore.web.common.AppConfig.kt</ID>
-    <ID>NewLineAtEndOfFile:Arabic.kt$com.narbase.narcore.web.translations.Arabic.kt</ID>
-    <ID>NewLineAtEndOfFile:DisplayNames.kt$com.narbase.narcore.web.translations.display.DisplayNames.kt</ID>
-    <ID>NewLineAtEndOfFile:DynamicRole.kt$com.narbase.narcore.web.common.data.roles.DynamicRole.kt</ID>
-    <ID>NewLineAtEndOfFile:ItemList.kt$com.narbase.narcore.web.network.dto.ItemList.kt</ID>
-    <ID>NewLineAtEndOfFile:Language.kt$com.narbase.narcore.web.common.models.Language.kt</ID>
-    <ID>NewLineAtEndOfFile:MathUtils.kt$com.narbase.narcore.web.utils.MathUtils.kt</ID>
-    <ID>NewLineAtEndOfFile:MobileScrollableView.kt$com.narbase.narcore.web.utils.scrollable.MobileScrollableView.kt</ID>
-    <ID>NewLineAtEndOfFile:PasswordUpdateComponent.kt$com.narbase.narcore.web.views.user.profile.PasswordUpdateComponent.kt</ID>
-    <ID>NewLineAtEndOfFile:PopupZIndex.kt$com.narbase.narcore.web.utils.PopupZIndex.kt</ID>
-    <ID>NewLineAtEndOfFile:RolesManagementComponent.kt$com.narbase.narcore.web.views.admin.roles.RolesManagementComponent.kt</ID>
-    <ID>NewLineAtEndOfFile:StatusesListComponent.kt$com.narbase.narcore.web.utils.views.StatusesListComponent.kt</ID>
-    <ID>NewLineAtEndOfFile:StoredValue.kt$com.narbase.narcore.web.storage.StoredValue.kt</ID>
+    <ID>NewLineAtEndOfFile:AppConfig.kt$com.narbase.pss.web.common.AppConfig.kt</ID>
+    <ID>NewLineAtEndOfFile:Arabic.kt$com.narbase.pss.web.translations.Arabic.kt</ID>
+    <ID>NewLineAtEndOfFile:DisplayNames.kt$com.narbase.pss.web.translations.display.DisplayNames.kt</ID>
+    <ID>NewLineAtEndOfFile:DynamicRole.kt$com.narbase.pss.web.common.data.roles.DynamicRole.kt</ID>
+    <ID>NewLineAtEndOfFile:ItemList.kt$com.narbase.pss.web.network.dto.ItemList.kt</ID>
+    <ID>NewLineAtEndOfFile:Language.kt$com.narbase.pss.web.common.models.Language.kt</ID>
+    <ID>NewLineAtEndOfFile:MathUtils.kt$com.narbase.pss.web.utils.MathUtils.kt</ID>
+    <ID>NewLineAtEndOfFile:MobileScrollableView.kt$com.narbase.pss.web.utils.scrollable.MobileScrollableView.kt</ID>
+    <ID>NewLineAtEndOfFile:PasswordUpdateComponent.kt$com.narbase.pss.web.views.user.profile.PasswordUpdateComponent.kt</ID>
+    <ID>NewLineAtEndOfFile:PopupZIndex.kt$com.narbase.pss.web.utils.PopupZIndex.kt</ID>
+    <ID>NewLineAtEndOfFile:RolesManagementComponent.kt$com.narbase.pss.web.views.admin.roles.RolesManagementComponent.kt</ID>
+    <ID>NewLineAtEndOfFile:StatusesListComponent.kt$com.narbase.pss.web.utils.views.StatusesListComponent.kt</ID>
+    <ID>NewLineAtEndOfFile:StoredValue.kt$com.narbase.pss.web.storage.StoredValue.kt</ID>
     <ID>NewLineAtEndOfFile:Tippy.kt$.Tippy.kt</ID>
-    <ID>NewLineAtEndOfFile:ZeroPad.kt$com.narbase.narcore.web.utils.ZeroPad.kt</ID>
-    <ID>NewLineAtEndOfFile:addClass.kt$com.narbase.narcore.web.utils.views.addClass.kt</ID>
+    <ID>NewLineAtEndOfFile:ZeroPad.kt$com.narbase.pss.web.utils.ZeroPad.kt</ID>
+    <ID>NewLineAtEndOfFile:addClass.kt$com.narbase.pss.web.utils.views.addClass.kt</ID>
     <ID>SpreadOperator:MultiSelectionDropDownList.kt$MultiSelectionDropDownListViewModel$(*items, *newItemsAsSelectableItems)</ID>
     <ID>SwallowedException:networkCall.kt$e: ConnectionErrorException</ID>
     <ID>SwallowedException:networkCall.kt$e: DisabledUserException</ID>
@@ -270,7 +270,7 @@
     <ID>WildcardImport:EditablePhoneNumberView.kt$import com.narbase.kunafa.core.css.*</ID>
     <ID>WildcardImport:EditableTextView.kt$import com.narbase.kunafa.core.css.*</ID>
     <ID>WildcardImport:EmptyList.kt$import com.narbase.kunafa.core.css.*</ID>
-    <ID>WildcardImport:EndPointRemoteProcessors.kt$import com.narbase.narcore.router.*</ID>
+    <ID>WildcardImport:EndPointRemoteProcessors.kt$import com.narbase.pss.router.*</ID>
     <ID>WildcardImport:FileUploader.kt$import com.narbase.kunafa.core.components.*</ID>
     <ID>WildcardImport:FileUploader.kt$import com.narbase.kunafa.core.css.*</ID>
     <ID>WildcardImport:ImageUploader.kt$import com.narbase.kunafa.core.components.*</ID>
@@ -301,10 +301,10 @@
     <ID>WildcardImport:RemoteCheckBoxList.kt$import com.narbase.kunafa.core.css.*</ID>
     <ID>WildcardImport:RemoteDropDownList.kt$import com.narbase.kunafa.core.components.*</ID>
     <ID>WildcardImport:RemoteDropDownList.kt$import com.narbase.kunafa.core.css.*</ID>
-    <ID>WildcardImport:RemoteDropDownList.kt$import com.narbase.narcore.web.network.*</ID>
+    <ID>WildcardImport:RemoteDropDownList.kt$import com.narbase.pss.web.network.*</ID>
     <ID>WildcardImport:RolesManagementComponent.kt$import com.narbase.kunafa.core.components.*</ID>
     <ID>WildcardImport:RolesManagementComponent.kt$import com.narbase.kunafa.core.css.*</ID>
-    <ID>WildcardImport:RolesManagementComponent.kt$import com.narbase.narcore.web.utils.views.*</ID>
+    <ID>WildcardImport:RolesManagementComponent.kt$import com.narbase.pss.web.utils.views.*</ID>
     <ID>WildcardImport:SearchTextInput.kt$import com.narbase.kunafa.core.css.*</ID>
     <ID>WildcardImport:Separators.kt$import com.narbase.kunafa.core.css.*</ID>
     <ID>WildcardImport:ShowWarningMessage.kt$import com.narbase.kunafa.core.css.*</ID>
@@ -317,9 +317,9 @@
     <ID>WildcardImport:SnackBar.kt$import com.narbase.kunafa.core.css.*</ID>
     <ID>WildcardImport:StaffManagementComponent.kt$import com.narbase.kunafa.core.components.*</ID>
     <ID>WildcardImport:StaffManagementComponent.kt$import com.narbase.kunafa.core.css.*</ID>
-    <ID>WildcardImport:StaffManagementComponent.kt$import com.narbase.narcore.web.utils.views.*</ID>
+    <ID>WildcardImport:StaffManagementComponent.kt$import com.narbase.pss.web.utils.views.*</ID>
     <ID>WildcardImport:StartupComponent.kt$import com.narbase.kunafa.core.css.*</ID>
-    <ID>WildcardImport:StartupComponent.kt$import com.narbase.narcore.web.utils.views.*</ID>
+    <ID>WildcardImport:StartupComponent.kt$import com.narbase.pss.web.utils.views.*</ID>
     <ID>WildcardImport:StatusesListComponent.kt$import com.narbase.kunafa.core.components.*</ID>
     <ID>WildcardImport:StatusesListComponent.kt$import com.narbase.kunafa.core.css.*</ID>
     <ID>WildcardImport:TableUtils.kt$import com.narbase.kunafa.core.components.*</ID>
@@ -329,7 +329,7 @@
     <ID>WildcardImport:ToggleSwitch.kt$import com.narbase.kunafa.core.css.*</ID>
     <ID>WildcardImport:UpsertStaffMemberDialog.kt$import com.narbase.kunafa.core.components.*</ID>
     <ID>WildcardImport:UpsertStaffMemberDialog.kt$import com.narbase.kunafa.core.css.*</ID>
-    <ID>WildcardImport:UpsertStaffMemberDialog.kt$import com.narbase.narcore.web.utils.views.*</ID>
+    <ID>WildcardImport:UpsertStaffMemberDialog.kt$import com.narbase.pss.web.utils.views.*</ID>
     <ID>WildcardImport:UserProfileComponent.kt$import com.narbase.kunafa.core.components.*</ID>
     <ID>WildcardImport:UserProfileComponent.kt$import com.narbase.kunafa.core.css.*</ID>
     <ID>WildcardImport:ViewLoadingErrorComponent.kt$import com.narbase.kunafa.core.components.*</ID>

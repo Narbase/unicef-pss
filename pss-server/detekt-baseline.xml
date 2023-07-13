@@ -74,57 +74,57 @@
     <ID>MaxLineLength:WebSocketController.kt$WebSocketController$(client.privileges.any { it in privileges } or (client.clientId == clientId)) &amp;&amp; client.clientId !in excludedId</ID>
     <ID>MaxLineLength:WebSocketController.kt$WebSocketController$/* fun startPeriodically() { // return scheduleRepeated(1L, TimeUnit.MILLISECONDS.toMillis(1)) { // println("Sessions ${clientSessions.size}") send(DataResponse(BillUpdatedMessage( UpdatedBillDetailsDto("", UUID.randomUUID(), UUID.randomUUID(), "patientName", null, BillStatusDto.NotPaid, listOf())))) } } */</ID>
     <ID>NestedBlockDepth:Migrations.kt$Migrations$fun migrate(targetVersion: String? = null)</ID>
-    <ID>NewLineAtEndOfFile:AddTokenController.kt$com.narbase.narcore.domain.client.token.AddTokenController.kt</ID>
-    <ID>NewLineAtEndOfFile:AdminRegisterer.kt$com.narbase.narcore.main.provisioning.AdminRegisterer.kt</ID>
-    <ID>NewLineAtEndOfFile:AdminRouter.kt$com.narbase.narcore.domain.admin.AdminRouter.kt</ID>
-    <ID>NewLineAtEndOfFile:AuthenticationConstants.kt$com.narbase.narcore.common.auth.AuthenticationConstants.kt</ID>
-    <ID>NewLineAtEndOfFile:AuthorizedClientData.kt$com.narbase.narcore.common.auth.loggedin.AuthorizedClientData.kt</ID>
-    <ID>NewLineAtEndOfFile:Client.kt$com.narbase.narcore.data.models.clients.Client.kt</ID>
-    <ID>NewLineAtEndOfFile:ClientRolesDao.kt$com.narbase.narcore.data.access.roles.ClientRolesDao.kt</ID>
-    <ID>NewLineAtEndOfFile:ClientRouter.kt$com.narbase.narcore.domain.client.ClientRouter.kt</ID>
-    <ID>NewLineAtEndOfFile:ClientsDao.kt$com.narbase.narcore.data.access.clients.ClientsDao.kt</ID>
-    <ID>NewLineAtEndOfFile:ConnectionProvider.kt$com.narbase.narcore.common.db.ConnectionProvider.kt</ID>
-    <ID>NewLineAtEndOfFile:CreateFileController.kt$com.narbase.narcore.domain.user.files.CreateFileController.kt</ID>
-    <ID>NewLineAtEndOfFile:DateTimeDtoUtils.kt$com.narbase.narcore.domain.utils.DateTimeDtoUtils.kt</ID>
-    <ID>NewLineAtEndOfFile:DateTimeTestUtils.kt$com.narbase.narcore.datetime.DateTimeTestUtils.kt</ID>
-    <ID>NewLineAtEndOfFile:DateTimeTests.kt$com.narbase.narcore.datetime.DateTimeTests.kt</ID>
-    <ID>NewLineAtEndOfFile:Deferred.kt$com.narbase.narcore.util.Deferred.kt</ID>
-    <ID>NewLineAtEndOfFile:EmailSender.kt$com.narbase.narcore.notification.email.EmailSender.kt</ID>
-    <ID>NewLineAtEndOfFile:EnableStaffController.kt$com.narbase.narcore.domain.admin.staff.EnableStaffController.kt</ID>
-    <ID>NewLineAtEndOfFile:EndpointHandler.kt$com.narbase.narcore.common.EndpointHandler.kt</ID>
-    <ID>NewLineAtEndOfFile:Gender.kt$com.narbase.narcore.data.enums.Gender.kt</ID>
-    <ID>NewLineAtEndOfFile:GenreateSqlForTables.kt$com.narbase.narcore.main.utils.GenreateSqlForTables.kt</ID>
-    <ID>NewLineAtEndOfFile:GetProfileController.kt$com.narbase.narcore.domain.user.profile.GetProfileController.kt</ID>
-    <ID>NewLineAtEndOfFile:Id.kt$com.narbase.narcore.data.conversions.id.Id.kt</ID>
-    <ID>NewLineAtEndOfFile:InactiveUserInterceptor.kt$com.narbase.narcore.domain.utils.InactiveUserInterceptor.kt</ID>
-    <ID>NewLineAtEndOfFile:InitialMigration.kt$com.narbase.narcore.common.db.migrations.usermigrations.InitialMigration.kt</ID>
-    <ID>NewLineAtEndOfFile:JsonSum.kt$com.narbase.narcore.data.columntypes.JsonSum.kt</ID>
-    <ID>NewLineAtEndOfFile:JwtTokenDto.kt$com.narbase.narcore.common.auth.jwt.JwtTokenDto.kt</ID>
-    <ID>NewLineAtEndOfFile:LaunchConfig.kt$com.narbase.narcore.deployment.LaunchConfig.kt</ID>
-    <ID>NewLineAtEndOfFile:ListAndTotal.kt$com.narbase.narcore.data.conversions.common.ListAndTotal.kt</ID>
-    <ID>NewLineAtEndOfFile:ListFilter.kt$com.narbase.narcore.data.access.common.ListFilter.kt</ID>
-    <ID>NewLineAtEndOfFile:LoginController.kt$com.narbase.narcore.domain.user.login.LoginController.kt</ID>
-    <ID>NewLineAtEndOfFile:Migration.kt$com.narbase.narcore.common.db.migrations.Migration.kt</ID>
-    <ID>NewLineAtEndOfFile:PasswordEncoder.kt$com.narbase.narcore.common.auth.basic.PasswordEncoder.kt</ID>
-    <ID>NewLineAtEndOfFile:PrivilageVerificationInterceptor.kt$com.narbase.narcore.domain.utils.PrivilageVerificationInterceptor.kt</ID>
-    <ID>NewLineAtEndOfFile:PropertiesReader.kt$com.narbase.narcore.main.properties.PropertiesReader.kt</ID>
-    <ID>NewLineAtEndOfFile:RemoveTokenController.kt$com.narbase.narcore.domain.client.token.RemoveTokenController.kt</ID>
-    <ID>NewLineAtEndOfFile:Role.kt$com.narbase.narcore.data.models.roles.Role.kt</ID>
-    <ID>NewLineAtEndOfFile:RolePrivilegesColumn.kt$com.narbase.narcore.data.columntypes.RolePrivilegesColumn.kt</ID>
-    <ID>NewLineAtEndOfFile:RolesCurdController.kt$com.narbase.narcore.domain.admin.staff.roles.RolesCurdController.kt</ID>
-    <ID>NewLineAtEndOfFile:RolesDao.kt$com.narbase.narcore.data.access.roles.RolesDao.kt</ID>
-    <ID>NewLineAtEndOfFile:SmsMessageStatus.kt$com.narbase.narcore.data.enums.SmsMessageStatus.kt</ID>
-    <ID>NewLineAtEndOfFile:SmsSender.kt$com.narbase.narcore.main.sms.SmsSender.kt</ID>
-    <ID>NewLineAtEndOfFile:SoftDeleteTable.kt$com.narbase.narcore.domain.user.crud.SoftDeleteTable.kt</ID>
-    <ID>NewLineAtEndOfFile:Union.kt$com.narbase.narcore.data.tables.utils.Union.kt</ID>
-    <ID>NewLineAtEndOfFile:UpdateProfileController.kt$com.narbase.narcore.domain.user.profile.UpdateProfileController.kt</ID>
-    <ID>NewLineAtEndOfFile:UserMigrations.kt$com.narbase.narcore.common.db.migrations.UserMigrations.kt</ID>
-    <ID>NewLineAtEndOfFile:UserPasswordApi.kt$com.narbase.narcore.domain.user.profile.UserPasswordApi.kt</ID>
-    <ID>NewLineAtEndOfFile:Users.kt$com.narbase.narcore.data.conversions.users.Users.kt</ID>
-    <ID>NewLineAtEndOfFile:UsersCrudController.kt$com.narbase.narcore.domain.admin.staff.UsersCrudController.kt</ID>
-    <ID>NewLineAtEndOfFile:VersionProperties.kt$com.narbase.narcore.main.properties.VersionProperties.kt</ID>
-    <ID>NewLineAtEndOfFile:WebSocketController.kt$com.narbase.narcore.domain.user.websocket.WebSocketController.kt</ID>
-    <ID>NewLineAtEndOfFile:setupCommonRoutes.kt$com.narbase.narcore.common.setupCommonRoutes.kt</ID>
+    <ID>NewLineAtEndOfFile:AddTokenController.kt$com.narbase.pss.domain.client.token.AddTokenController.kt</ID>
+    <ID>NewLineAtEndOfFile:AdminRegisterer.kt$com.narbase.pss.main.provisioning.AdminRegisterer.kt</ID>
+    <ID>NewLineAtEndOfFile:AdminRouter.kt$com.narbase.pss.domain.admin.AdminRouter.kt</ID>
+    <ID>NewLineAtEndOfFile:AuthenticationConstants.kt$com.narbase.pss.common.auth.AuthenticationConstants.kt</ID>
+    <ID>NewLineAtEndOfFile:AuthorizedClientData.kt$com.narbase.pss.common.auth.loggedin.AuthorizedClientData.kt</ID>
+    <ID>NewLineAtEndOfFile:Client.kt$com.narbase.pss.data.models.clients.Client.kt</ID>
+    <ID>NewLineAtEndOfFile:ClientRolesDao.kt$com.narbase.pss.data.access.roles.ClientRolesDao.kt</ID>
+    <ID>NewLineAtEndOfFile:ClientRouter.kt$com.narbase.pss.domain.client.ClientRouter.kt</ID>
+    <ID>NewLineAtEndOfFile:ClientsDao.kt$com.narbase.pss.data.access.clients.ClientsDao.kt</ID>
+    <ID>NewLineAtEndOfFile:ConnectionProvider.kt$com.narbase.pss.common.db.ConnectionProvider.kt</ID>
+    <ID>NewLineAtEndOfFile:CreateFileController.kt$com.narbase.pss.domain.user.files.CreateFileController.kt</ID>
+    <ID>NewLineAtEndOfFile:DateTimeDtoUtils.kt$com.narbase.pss.domain.utils.DateTimeDtoUtils.kt</ID>
+    <ID>NewLineAtEndOfFile:DateTimeTestUtils.kt$com.narbase.pss.datetime.DateTimeTestUtils.kt</ID>
+    <ID>NewLineAtEndOfFile:DateTimeTests.kt$com.narbase.pss.datetime.DateTimeTests.kt</ID>
+    <ID>NewLineAtEndOfFile:Deferred.kt$com.narbase.pss.util.Deferred.kt</ID>
+    <ID>NewLineAtEndOfFile:EmailSender.kt$com.narbase.pss.notification.email.EmailSender.kt</ID>
+    <ID>NewLineAtEndOfFile:EnableStaffController.kt$com.narbase.pss.domain.admin.staff.EnableStaffController.kt</ID>
+    <ID>NewLineAtEndOfFile:EndpointHandler.kt$com.narbase.pss.common.EndpointHandler.kt</ID>
+    <ID>NewLineAtEndOfFile:Gender.kt$com.narbase.pss.data.enums.Gender.kt</ID>
+    <ID>NewLineAtEndOfFile:GenreateSqlForTables.kt$com.narbase.pss.main.utils.GenreateSqlForTables.kt</ID>
+    <ID>NewLineAtEndOfFile:GetProfileController.kt$com.narbase.pss.domain.user.profile.GetProfileController.kt</ID>
+    <ID>NewLineAtEndOfFile:Id.kt$com.narbase.pss.data.conversions.id.Id.kt</ID>
+    <ID>NewLineAtEndOfFile:InactiveUserInterceptor.kt$com.narbase.pss.domain.utils.InactiveUserInterceptor.kt</ID>
+    <ID>NewLineAtEndOfFile:InitialMigration.kt$com.narbase.pss.common.db.migrations.usermigrations.InitialMigration.kt</ID>
+    <ID>NewLineAtEndOfFile:JsonSum.kt$com.narbase.pss.data.columntypes.JsonSum.kt</ID>
+    <ID>NewLineAtEndOfFile:JwtTokenDto.kt$com.narbase.pss.common.auth.jwt.JwtTokenDto.kt</ID>
+    <ID>NewLineAtEndOfFile:LaunchConfig.kt$com.narbase.pss.deployment.LaunchConfig.kt</ID>
+    <ID>NewLineAtEndOfFile:ListAndTotal.kt$com.narbase.pss.data.conversions.common.ListAndTotal.kt</ID>
+    <ID>NewLineAtEndOfFile:ListFilter.kt$com.narbase.pss.data.access.common.ListFilter.kt</ID>
+    <ID>NewLineAtEndOfFile:LoginController.kt$com.narbase.pss.domain.user.login.LoginController.kt</ID>
+    <ID>NewLineAtEndOfFile:Migration.kt$com.narbase.pss.common.db.migrations.Migration.kt</ID>
+    <ID>NewLineAtEndOfFile:PasswordEncoder.kt$com.narbase.pss.common.auth.basic.PasswordEncoder.kt</ID>
+    <ID>NewLineAtEndOfFile:PrivilageVerificationInterceptor.kt$com.narbase.pss.domain.utils.PrivilageVerificationInterceptor.kt</ID>
+    <ID>NewLineAtEndOfFile:PropertiesReader.kt$com.narbase.pss.main.properties.PropertiesReader.kt</ID>
+    <ID>NewLineAtEndOfFile:RemoveTokenController.kt$com.narbase.pss.domain.client.token.RemoveTokenController.kt</ID>
+    <ID>NewLineAtEndOfFile:Role.kt$com.narbase.pss.data.models.roles.Role.kt</ID>
+    <ID>NewLineAtEndOfFile:RolePrivilegesColumn.kt$com.narbase.pss.data.columntypes.RolePrivilegesColumn.kt</ID>
+    <ID>NewLineAtEndOfFile:RolesCurdController.kt$com.narbase.pss.domain.admin.staff.roles.RolesCurdController.kt</ID>
+    <ID>NewLineAtEndOfFile:RolesDao.kt$com.narbase.pss.data.access.roles.RolesDao.kt</ID>
+    <ID>NewLineAtEndOfFile:SmsMessageStatus.kt$com.narbase.pss.data.enums.SmsMessageStatus.kt</ID>
+    <ID>NewLineAtEndOfFile:SmsSender.kt$com.narbase.pss.main.sms.SmsSender.kt</ID>
+    <ID>NewLineAtEndOfFile:SoftDeleteTable.kt$com.narbase.pss.domain.user.crud.SoftDeleteTable.kt</ID>
+    <ID>NewLineAtEndOfFile:Union.kt$com.narbase.pss.data.tables.utils.Union.kt</ID>
+    <ID>NewLineAtEndOfFile:UpdateProfileController.kt$com.narbase.pss.domain.user.profile.UpdateProfileController.kt</ID>
+    <ID>NewLineAtEndOfFile:UserMigrations.kt$com.narbase.pss.common.db.migrations.UserMigrations.kt</ID>
+    <ID>NewLineAtEndOfFile:UserPasswordApi.kt$com.narbase.pss.domain.user.profile.UserPasswordApi.kt</ID>
+    <ID>NewLineAtEndOfFile:Users.kt$com.narbase.pss.data.conversions.users.Users.kt</ID>
+    <ID>NewLineAtEndOfFile:UsersCrudController.kt$com.narbase.pss.domain.admin.staff.UsersCrudController.kt</ID>
+    <ID>NewLineAtEndOfFile:VersionProperties.kt$com.narbase.pss.main.properties.VersionProperties.kt</ID>
+    <ID>NewLineAtEndOfFile:WebSocketController.kt$com.narbase.pss.domain.user.websocket.WebSocketController.kt</ID>
+    <ID>NewLineAtEndOfFile:setupCommonRoutes.kt$com.narbase.pss.common.setupCommonRoutes.kt</ID>
     <ID>PrintStackTrace:CreateFileController.kt$CreateFileController$e</ID>
     <ID>PrintStackTrace:EmailSender.kt$EmailSender$e</ID>
     <ID>PrintStackTrace:WebSocketController.kt$WebSocketController$e</ID>
@@ -218,7 +218,7 @@
     <ID>WildcardImport:PrivilageVerificationInterceptor.kt$import io.ktor.server.auth.*</ID>
     <ID>WildcardImport:PrivilageVerificationInterceptor.kt$import io.ktor.server.routing.*</ID>
     <ID>WildcardImport:RolesDao.kt$import org.jetbrains.exposed.sql.*</ID>
-    <ID>WildcardImport:RolesTables.kt$import com.narbase.narcore.data.tables.*</ID>
+    <ID>WildcardImport:RolesTables.kt$import com.narbase.pss.data.tables.*</ID>
     <ID>WildcardImport:Server.kt$import io.ktor.http.*</ID>
     <ID>WildcardImport:Server.kt$import io.ktor.http.content.*</ID>
     <ID>WildcardImport:Server.kt$import io.ktor.serialization.gson.*</ID>
@@ -259,7 +259,7 @@
     <ID>WildcardImport:receiveTextWithCorrectEncoding.kt$import io.ktor.http.*</ID>
     <ID>WildcardImport:receiveTextWithCorrectEncoding.kt$import io.ktor.server.application.*</ID>
     <ID>WildcardImport:receiveTextWithCorrectEncoding.kt$import io.ktor.server.request.*</ID>
-    <ID>WildcardImport:setupCommonRoutes.kt$import com.narbase.narcore.domain.user.crud.*</ID>
+    <ID>WildcardImport:setupCommonRoutes.kt$import com.narbase.pss.domain.user.crud.*</ID>
     <ID>WildcardImport:setupCommonRoutes.kt$import io.ktor.server.application.*</ID>
     <ID>WildcardImport:setupCommonRoutes.kt$import io.ktor.server.auth.*</ID>
     <ID>WildcardImport:setupCommonRoutes.kt$import io.ktor.server.routing.*</ID>

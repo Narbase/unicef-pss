@@ -78,7 +78,7 @@ configure<SourceSetContainer> {
     }
 }
 tasks.test {
-    environment["IS_TEST"] = true
+    environment["IS_TEST"] = false
     useJUnitPlatform()
 }
 
@@ -92,13 +92,14 @@ java {
 }
 
 application {
-    mainClass.set("com.narbase.narcore.main.MainKt")
+    mainClass.set("com.narbase.pss.main.MainKt")
 }
 
 
 tasks.jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     manifest {
-        attributes("Main-Class" to "com.narbase.narcore.main.MainKt")
+        attributes("Main-Class" to "com.narbase.pss.main.MainKt")
         attributes("Class-Path" to ".")
     }
     from(configurations.compileClasspath.map { config -> config.map { if (it.isDirectory) it else zipTree(it) } })

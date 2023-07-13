@@ -27,9 +27,9 @@ dependencies {
     implementation(npm("file-loader", "5.0.2"))
     implementation(npm("typeface-open-sans", "0.0.75"))
     implementation(npm("tippy.js", "4.3.4"))
-    implementation(npm("pikaday", "1.8.0"))
+    implementation(npm("pikaday", "1.8.2"))
     implementation(npm("flatpickr", "4.6.3"))
-    implementation(npm("phaser.js", "3.60.0"))
+    implementation(npm("phaser", "3.60.0"))
 
     testImplementation("org.jetbrains.kotlin:kotlin-test-js:$kotlinVersion")
 
